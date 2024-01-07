@@ -24,10 +24,12 @@ It's very simple to use - basically a custom spreadsheet with a filter.
 - any device on that wifi network will be able to access the applett by going to [your.ip.address]:3000
 
 ##TODOS:
+- add Black Diablos & Rathalos
+- add event sets
 - make moar prett
 - nextjs conversion go vroom
 - mobile friendly
-- add weapons column (pretty sure all weapons from one monster have the same abilities)
+- add element info to weapons
 - lint
 - better handling of grades/multiple levels at diff grades
 - multifilter
