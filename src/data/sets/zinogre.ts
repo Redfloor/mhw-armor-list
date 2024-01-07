@@ -60,5 +60,13 @@ export const zinogre: setType = {
             grade: 6,
         }]
     },
+    {
+        slot: 'weapon',
+        abilities: [{
+            name: 'artful dodger',
+            level: 1,
+            grade: 8,
+        }]
+    },
 ]
 }

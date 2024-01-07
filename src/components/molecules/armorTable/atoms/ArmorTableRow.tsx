@@ -9,6 +9,7 @@ export const ArmorTableRow = ({set, armor}: setType) => {
     const gloves = armor.find(a => a.slot === 'gloves');
     const belt = armor.find(a => a.slot === 'belt');
     const greaves = armor.find(a => a.slot === 'greaves');
+    const weapon = armor.find(a => a.slot === 'weapon');
 
     return <div className='armorRow'>
         <ArmorTableLabel monster={set} />
@@ -17,5 +18,6 @@ export const ArmorTableRow = ({set, armor}: setType) => {
         <ArmorTableCell abilities={gloves?.abilities} />
         <ArmorTableCell abilities={belt?.abilities} />
         <ArmorTableCell abilities={greaves?.abilities} />
+        <ArmorTableCell abilities={weapon?.abilities} />
     </div>
 }

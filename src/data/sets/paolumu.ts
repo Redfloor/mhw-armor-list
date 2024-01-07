@@ -52,5 +52,13 @@ export const paolumu: setType = {
             grade: 2,
         }]
     },
+    {
+        slot: 'weapon',
+        abilities: [{
+            name: 'divine blessing',
+            level: 2,
+            grade: 4,
+        }]
+    },
 ]
 }

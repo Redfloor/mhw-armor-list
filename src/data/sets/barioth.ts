@@ -60,5 +60,13 @@ export const barioth: setType = {
             grade: 6,
         }]
     },
+    {
+        slot: 'weapon',
+        abilities: [{
+            name: 'evade extender',
+            level: 1,
+            grade: 8,
+        }]
+    },
 ]
 }

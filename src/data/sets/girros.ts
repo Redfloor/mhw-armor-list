@@ -56,6 +56,13 @@ export const girros: setType = {
             level: 2,
             grade: 2,
         }]
+    },{
+        slot: 'weapon',
+        abilities: [{
+            name: 'sneak attack',
+            level: 1,
+            grade: 8,
+        }]
     },
 ]
 }

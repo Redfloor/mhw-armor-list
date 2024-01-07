@@ -68,5 +68,13 @@ export const leather: setType = {
             grade: 4,
         }]
     },
+    {
+        slot: 'weapon',
+        abilities: [{
+            name: 'poison resistance',
+            level: 2,
+            grade: 4,
+        }]
+    },
 ]
 }

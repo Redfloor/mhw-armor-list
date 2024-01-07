@@ -60,5 +60,13 @@ export const legiana: setType = {
             grade: 6,
         }]
     },
+    {
+        slot: 'weapon',
+        abilities: [{
+            name: 'divine blessing',
+            level: 2,
+            grade: 4,
+        }]
+    },
 ]
 }

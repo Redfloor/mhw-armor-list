@@ -60,5 +60,13 @@ export const kadachi: setType = {
             grade: 2,
         }]
     },
+    {
+        slot: 'weapon',
+        abilities: [{
+            name: 'evade extender',
+            level: 1,
+            grade: 8,
+        }]
+    },
 ]
 }

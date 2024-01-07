@@ -60,6 +60,13 @@ export const diablos: setType = {
             level: 1,
             grade: 6,
         }]
+    },{
+        slot: 'weapon',
+        abilities: [{
+            name: 'heroics',
+            level: 1,
+            grade: 8,
+        }]
     },
 ]
 }

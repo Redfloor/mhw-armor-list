@@ -54,6 +54,13 @@ export const jyuratodus: setType = {
             level: 1,
             grade: 4,
         }]
+    },{
+        slot: 'weapon',
+        abilities: [{
+            name: 'last stand',
+            level: 1,
+            grade: 8,
+        }]
     },
 ]
 }

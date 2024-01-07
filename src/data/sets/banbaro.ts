@@ -65,5 +65,13 @@ export const banbaro: setType = {
             grade: 6,
         }]
     },
+    {
+        slot: 'weapon',
+        abilities: [{
+            name: 'firm foothold',
+            level: 2,
+            grade: 4,
+        }]
+    },
 ]
 }

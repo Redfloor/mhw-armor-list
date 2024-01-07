@@ -5,7 +5,7 @@ export type AbilityType = {
 }
 
 export interface ArmorType {
-    slot: 'head' | 'chest' | 'gloves' | 'belt' | 'greaves',
+    slot: 'head' | 'chest' | 'gloves' | 'belt' | 'greaves' | 'weapon',
     abilities: AbilityType[],
 }
 

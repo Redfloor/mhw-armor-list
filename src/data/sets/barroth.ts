@@ -56,5 +56,13 @@ export const barroth: setType = {
             grade: 2,
         }]
     },
+    {
+        slot: 'weapon',
+        abilities: [{
+            name: 'defense boost',
+            level: 2,
+            grade: 4,
+        }]
+    },
 ]
 }

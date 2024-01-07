@@ -57,5 +57,13 @@ export const kulu: setType = {
             grade: 2,
         }]
     },
+    {
+        slot: 'weapon',
+        abilities: [{
+            name: 'fortify',
+            level: 2,
+            grade: 4,
+        }]
+    },
 ]
 }

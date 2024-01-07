@@ -108,7 +108,7 @@
 }
 
 .armorTableHeader > div, .armorRow > div {
-  width: calc(100% / 6);
+  width: calc(100% / 7);
   border: solid 1px #000a;
   border-top:0;
   padding: 10px;

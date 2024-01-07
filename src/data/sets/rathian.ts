@@ -57,5 +57,13 @@ export const rathian: setType = {
             grade: 2,
         }]
     },
+    {
+        slot: 'weapon',
+        abilities: [{
+            name: 'health boost',
+            level: 2,
+            grade: 4,
+        }]
+    },
 ]
 }

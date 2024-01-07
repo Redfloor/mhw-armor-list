@@ -8,6 +8,7 @@ export const ArmorTableHeader = () => {
     const glovesImg = require(`../../../../assets/theme/${theme}/armorIcons/ItemIcon013.png`);
     const beltImg = require(`../../../../assets/theme/${theme}/armorIcons/ItemIcon018.png`);
     const greavesImg = require(`../../../../assets/theme/${theme}/armorIcons/ItemIcon010.png`);
+    const weaponImg = require(`../../../../assets/theme/${theme}/ItemIcon034.png`);
     return <div className='armorTableHeader'>
         <div key='header-label'>Brought to you by RedWaltz</div>
         <div key='header-head'>
@@ -24,6 +25,9 @@ export const ArmorTableHeader = () => {
         </div>
         <div key='header-greaves'>
             <img src={greavesImg} alt={'greaves slot'}/>
+        </div>
+        <div key='header-weapons'>
+            <img src={weaponImg} alt={'weapons slot'}/>
         </div>
     </div>
 }

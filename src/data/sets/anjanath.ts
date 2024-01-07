@@ -52,5 +52,13 @@ export const anjanath: setType = {
             grade: 2,
         }]
     },
+    {
+        slot: 'weapon',
+        abilities: [{
+            name: 'rising tide',
+            level: 1,
+            grade: 8,
+        }]
+    },
 ]
 }

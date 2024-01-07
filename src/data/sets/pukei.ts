@@ -60,5 +60,13 @@ export const pukei: setType = {
             grade: 4,
         }]
     },
+    {
+        slot: 'weapon',
+        abilities: [{
+            name: 'sneak attack',
+            level: 1,
+            grade: 8,
+        }]
+    },
 ]
 }

@@ -56,5 +56,13 @@ export const radobaan: setType = {
             grade: 4,
         }]
     },
+    {
+        slot: 'weapon',
+        abilities: [{
+            name: 'defense boost',
+            level: 2,
+            grade: 4,
+        }]
+    },
 ]
 }
