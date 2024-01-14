@@ -24,7 +24,7 @@ It's very simple to use - basically a custom spreadsheet with a filter.
 - any device on that wifi network will be able to access the applett by going to [your.ip.address]:3000
 
 ##TODOS:
-- add Black Diablos & Rathalos
+- add Black Diablos & Azure Rathalos
 - add event sets
 - make moar prett
 - nextjs conversion go vroom

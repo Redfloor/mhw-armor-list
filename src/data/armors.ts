@@ -17,6 +17,7 @@ import {anjanath} from "./sets/anjanath";
 import {rathian} from "./sets/rathian";
 import {pinkrathian} from "./sets/pinkrathian";
 import {diablos} from "./sets/diablos";
+import {rathalos} from "./sets/rathalos"
 import {legiana} from "./sets/legiana";
 import {radobaan} from "./sets/radobaan";
 import {banbaro} from "./sets/banbaro";
@@ -38,6 +39,7 @@ export const armorList: setType[] = [
     pinkrathian,
     legiana,
     diablos,
+    rathalos,
     radobaan,
     banbaro,
     barioth,
