@@ -9,6 +9,10 @@ export const ArmorTableLabel = ({monster}: Props) => {
     const {theme} = useContext(ThemeContext);
     const [monsterIcon, setMonsterIcon] = useState('');
 
+    const parseMonsterName = (name: string) => {
+        return name.replaceAll('_', ' ');
+    }
+
     useEffect(() => {
         import(`../../../../assets/monsties/${monster}.png`).then((r)=>{
             setMonsterIcon(r.default)
@@ -18,6 +22,6 @@ export const ArmorTableLabel = ({monster}: Props) => {
 
     return <div className='armorTableCell'>
         <img src={monsterIcon} alt={`${monster}-icon`}/>
-        {monster} set
+        {parseMonsterName(monster)} set
     </div>
 }
